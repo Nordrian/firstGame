@@ -4,20 +4,22 @@
 #include <vector>
 #include <algorithm>
 #include <iterator>
-#include "items.h"
+#include "ItemsManagement.h"
 #include <iostream>
 #include <cstdio>
+#include <memory>
 
 class Inventory {
 public:
 	Inventory();
-	void addItem(Items* item);
+	~Inventory();
+	void addItem(std::unique_ptr<Items> item);
 	void scanInventory();
 	void sortInventory();
-	~Inventory();
+	
 
 private:
-	std::vector<Items*> inventory;
-	std::vector<Items*>::iterator iterInventory;
+	std::vector<std::unique_ptr<Items>> inventory;
+	std::vector<std::unique_ptr<Items>>::iterator iterInventory;
 };
 #endif // !INVENTORY_H

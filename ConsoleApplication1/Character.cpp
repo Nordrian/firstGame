@@ -8,11 +8,12 @@ generalCharacter::generalCharacter()
 
 }
 
-generalCharacter::generalCharacter(std::string type, int level, int hpDice)
+generalCharacter::generalCharacter(std::string type, int level, int hpDice, Inventory& inventory)
 {
 	this->type = type;
 	this->level = level;
 	this->hpDice = hpDice;
+	this->equipment = inventory;
 
 	this->hp = 0;
 	for (int i = 1; i <= level; i++)

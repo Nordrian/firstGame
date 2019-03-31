@@ -4,9 +4,9 @@ Inventory::Inventory()
 {
 }
 
-void Inventory::addItem(Items * item)
+void Inventory::addItem(std::unique_ptr<Items> item)
 {
-	this->inventory.push_back(item);
+	this->inventory.push_back(std::move(item));
 }
 
 void Inventory::scanInventory()
@@ -21,14 +21,11 @@ void Inventory::scanInventory()
 
 void Inventory::sortInventory()
 {
-	std::sort(this->inventory.begin(), this->inventory.end);
+	compareItems compareThem;
+	std::sort(this->inventory.begin(), this->inventory.end(), compareThem);
 }
 
 Inventory::~Inventory()
 {
-	for (iterInventory = inventory.begin(); iterInventory < inventory.end(); iterInventory++)
-	{
-		(*iterInventory) = NULL;
-	}
 
 }

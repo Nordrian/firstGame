@@ -154,7 +154,7 @@
     <ClInclude Include="Character.h" />
     <ClInclude Include="dice.h" />
     <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Items.h" />
+    <ClInclude Include="ItemsManagement.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -168,7 +168,7 @@
     <ClCompile Include="dice.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="inventory.cpp" />
-    <ClCompile Include="Items.cpp" />
+    <ClCompile Include="ItemsManagement.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

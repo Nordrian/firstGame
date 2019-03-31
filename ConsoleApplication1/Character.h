@@ -1,21 +1,20 @@
-#ifndef DICE_H
+#ifndef CHARACTER_H
 	#include "dice.h"
-#endif
+
 
 #include <cstdio>
 
 #include <string>
 #include <thread>
 #include <chrono>
-#ifndef CHARACTER_H
-#define CHARACTER_H
+#include "Inventory.h"
 
 class generalCharacter
 {
 public:
 	generalCharacter();
 
-	generalCharacter(std::string type, int level, int hpDice);
+	generalCharacter(std::string type, int level, int hpDice, Inventory& inventory);
 
 	~generalCharacter();
 
@@ -30,7 +29,7 @@ private:
 	int physicalDef;
 	int magicalDef;
 	int dodgeSkill;
-
+	Inventory equipment;
 
 };
 

@@ -24,10 +24,10 @@
     <ClInclude Include="Character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Items.h">
+    <ClInclude Include="Inventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Inventory.h">
+    <ClInclude Include="ItemsManagement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,7 +47,7 @@
     <ClCompile Include="inventory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Items.cpp">
+    <ClCompile Include="ItemsManagement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

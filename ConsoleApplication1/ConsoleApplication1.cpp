@@ -15,23 +15,23 @@
 
 int main()
 {
+	int choice = 0;
+
 	generalCharacter tom = generalCharacter("tom", 6, 6);
-
-
-	Items sword("Sword", 10);
-	Items boots("Worn Boots", 2);
-	Items armor("Armor", 100);
-	Items hat("Pointy Hat", 10);
 
 	Inventory myInventory;
 
-	myInventory.addItem(&sword);
-	myInventory.addItem(&boots);
-	myInventory.addItem(&armor);
-	myInventory.addItem(&hat);
+	myInventory.addItem(std::unique_ptr<Items>(new Items("Sword",10)));
+	myInventory.addItem(std::unique_ptr<Items>(new Items("Worn Boots", 10)));
+	myInventory.addItem(std::unique_ptr<Items>(new Items("Sword", 10)));
+	myInventory.addItem(std::unique_ptr<Items>(new Items("Sword", 10)));
 	myInventory.scanInventory();
 
-	
+	std::cout << "What do you want to attack with?";
+
+	std::cin
+
+
 
 	return 0;
 

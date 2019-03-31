@@ -1,0 +1,97 @@
+﻿  pch.cpp
+  ConsoleApplication1.cpp
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2518: keyword 'class' illegal in base class list; ignored
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2504: 'Inventory': base class undefined
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(13): warning C4183: 'Inventory': missing return type; assumed to be a member function returning 'int'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(17): error C2523: 'Weapon::~Inventory': destructor tag mismatch
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): error C2065: 'Inventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): error C2146: syntax error: missing ';' before identifier 'myInventory'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): error C2065: 'myInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(28): error C2065: 'myInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(29): error C2065: 'myInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(30): error C2065: 'myInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(31): error C2065: 'myInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\consoleapplication1.cpp(32): error C2065: 'myInventory': undeclared identifier
+  dice.cpp
+  Character.cpp
+  inventory.cpp
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(14): error C2059: syntax error: 'namespace'
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(28): error C3646: 'cin': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(28): error C2071: 'Weapon::istream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(28): error C2071: 'Weapon::_Ptr_cin': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(29): error C3646: 'cout': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(29): error C2071: 'Weapon::ostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(29): error C2071: 'Weapon::_Ptr_cout': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(30): error C2327: 'Weapon::ostream': is not a type name, static, or enumerator
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(30): error C3646: 'cerr': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(30): error C2071: 'Weapon::ostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(30): error C2071: 'Weapon::_Ptr_cerr': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(31): error C2327: 'Weapon::ostream': is not a type name, static, or enumerator
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(31): error C3646: 'clog': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(31): error C2071: 'Weapon::ostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(31): error C2071: 'Weapon::_Ptr_clog': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(33): error C3646: 'wcin': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(33): error C2071: 'Weapon::wistream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(33): error C2071: 'Weapon::_Ptr_wcin': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(34): error C3646: 'wcout': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(34): error C2071: 'Weapon::wostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(34): error C2071: 'Weapon::_Ptr_wcout': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(35): error C2327: 'Weapon::wostream': is not a type name, static, or enumerator
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(35): error C3646: 'wcerr': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(35): error C2071: 'Weapon::wostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(35): error C2071: 'Weapon::_Ptr_wcerr': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(36): error C2327: 'Weapon::wostream': is not a type name, static, or enumerator
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(36): error C3646: 'wclog': unknown override specifier
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(36): error C2071: 'Weapon::wostream': illegal storage class
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\community\vc\tools\msvc\14.16.27023\include\iostream(36): error C2071: 'Weapon::_Ptr_wclog': illegal storage class
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2059: syntax error: '{'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2143: syntax error: missing ';' before '{'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.h(11): error C2447: '{': missing function header (old-style formal list?)
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(3): error C2653: 'Inventory': is not a class or namespace name
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(5): warning C4508: 'Inventory': function should return a value; 'void' return type assumed
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(7): error C2510: 'Inventory': left of '::' must be a class/struct/union
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(9): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(12): error C2510: 'Inventory': left of '::' must be a class/struct/union
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(16): error C2065: 'iterInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(16): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(16): error C2065: 'inventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(18): error C2039: 'cout': is not a member of 'std'
+  d:\dev\community\vc\tools\msvc\14.16.27023\include\string(20): note: see declaration of 'std'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(18): error C2065: 'cout': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(18): error C2065: 'iterInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(22): error C2510: 'Inventory': left of '::' must be a class/struct/union
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(24): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(24): error C2672: 'std::sort': no matching overloaded function found
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(24): error C2780: 'void std::sort(const _RanIt,const _RanIt)': expects 2 arguments - 1 provided
+  d:\dev\community\vc\tools\msvc\14.16.27023\include\algorithm(4038): note: see declaration of 'std::sort'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(24): error C2780: 'void std::sort(const _RanIt,const _RanIt,_Pr)': expects 3 arguments - 1 provided
+  d:\dev\community\vc\tools\msvc\14.16.27023\include\algorithm(4029): note: see declaration of 'std::sort'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(27): error C2523: 'Inventory::~Inventory': destructor tag mismatch
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(27): error C2510: 'Inventory': left of '::' must be a class/struct/union
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(28): error C2084: function 'int Inventory(void)' already has a body
+  d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(3): note: see previous definition of 'Inventory'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(29): error C2065: 'iterInventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(29): error C2065: 'inventory': undeclared identifier
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\inventory.cpp(31): error C2065: 'iterInventory': undeclared identifier
+  Items.cpp
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(3): error C2516: 'Items::{ctor}': is not a legal base class
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(3): error C2143: syntax error: missing ',' before '('
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(5): error C2059: syntax error: 'this'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(5): error C2238: unexpected token(s) preceding ';'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(6): error C2059: syntax error: 'this'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(6): error C2238: unexpected token(s) preceding ';'
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(10): error C2577: 'Items::~Items': a destructor cannot have a return type
+d:\dev\workspace_cplusplus\consoleapplication1\consoleapplication1\items.cpp(26): warning C4114: same type qualifier used more than once
+  Generating Code...

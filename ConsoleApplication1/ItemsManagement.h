@@ -10,7 +10,7 @@
 class Items
 {
 public:
-	Items(std::string name, int value) : name(name), value(value) {};
+	Items(std::string name, int value, int id) : name(name), value(value), itemID(id) {};
 	~Items();
 	const std::string& itemName();
 
@@ -22,7 +22,8 @@ public:
 
 
 private:
-	std::string name;
+	const std::string name;
+	const int itemID;
 	int value;
 };
 

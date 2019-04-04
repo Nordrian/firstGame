@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <fstream>
 #include "Character.h"
 #include "Inventory.h"
 
@@ -17,7 +18,7 @@ int main()
 {
 	int choice = 0;
 
-	generalCharacter tom = generalCharacter("tom", 6, 6);
+
 
 	Inventory myInventory;
 
@@ -29,7 +30,7 @@ int main()
 
 	std::cout << "What do you want to attack with?";
 
-	std::cin
+	std::ofstream saveFile("data.txt");
 
 
 

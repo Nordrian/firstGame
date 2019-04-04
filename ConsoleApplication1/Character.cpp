@@ -27,6 +27,17 @@ void generalCharacter::getsHit(int dmg) {
 	this->hp -= dmg;
 }
 
+std::string generalCharacter::saveData()
+{
+	std::string data = std::to_string(this->hpDice) + " " +
+		std::to_string(this->level) + " " +
+		std::to_string(this->hp) + " " +
+		std::to_string(this->physicalDef) + " " +
+		std::to_string(this->magicalDef) + " " +
+		std::to_string(this->dodgeSkill);
+	return data;
+}
+
 generalCharacter::~generalCharacter()
 {
 
@@ -44,12 +55,13 @@ Player::Player() {
 
 }
 
-Player::Player(std::string name, int level, int hpDice, std::string type, int strengthBonus, int magicBonus, int dextBonus) : generalCharacter(type, level, hpDice)
+Player::Player(std::string name, int level, int hpDice, std::string type, int strengthBonus, int magicBonus, int dextBonus, classType charClass) : generalCharacter(type, level, hpDice)
 {
 	this->dextBonus = dextBonus;
 	this->strengthBonus = strengthBonus;
 	this->magicBonus = magicBonus;
 	this->name = name;
+	this->myClass = characterClass(charClass);
 }
 
 
@@ -66,27 +78,39 @@ int Player::rangeAttack() {
 	return randomValue(6) + this->dextBonus;
 }
 
+std::string Player::saveData()
+{
+	std::string characterData = "1 " + std::to_string(this->myClass.getClass()) + " " + std::to_string(this->strengthBonus)+
+		std::to_string(this->magicBonus) + " " +
+		std::to_string(this->dextBonus) + " " +
+		generalCharacter::saveData() + equipment.saveEquipment();
+	return characterData;
+}
+
 Player::~Player() {
 
 }
 
 //Defining warrior class
 
-Warrior::Warrior()
+
+characterClass::characterClass(classType charClass)
+{
+	this->myClass = charClass;
+}
+
+characterClass::~characterClass()
 {
 }
 
-Warrior::Warrior(std::string name, int level, int hpDice, std::string type, int strengthBonus, int magicBonus, int dextBonus)
+int& characterClass::getClass()
 {
-	Player p(name, 1, 10, "human", 2, 0, 0);
-	this->p = p;
-}
 
-Warrior::Warrior(Player p)
-{
-	this->p = p;
-}
-
-Warrior::~Warrior()
-{
+	switch (this->myClass) {
+	case classType::WARRIOR: return 0;
+		break;
+	case classType::MAGE: return 1;
+		break;
+	case classType::ROGUE: return 2;
+	}
 }
